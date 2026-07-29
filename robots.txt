@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Crawlers de IA — permitidos (site publico, sem precos sensiveis)
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sem restricoes de precos — sem Disallow necessario
+
+Sitemap: https://restaurantedavovo.netlify.app/sitemap.xml
