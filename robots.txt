@@ -6,48 +6,48 @@ User-agent: *
 Allow: /
 Disallow: /politica.html
 
-# Bloqueio de crawlers de IA — nao autorizamos treinamento com nosso conteudo
+# Bloqueio de crawlers de IA 
 User-agent: GPTBot
-Disallow: /
+allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+allow: /
 
 User-agent: Claude-Web
-Disallow: /
+allow: /
 
 User-agent: ClaudeBot
-Disallow: /
+allow: /
 
 User-agent: anthropic-ai
-Disallow: /
+allow: /
 
 User-agent: Google-Extended
-Disallow: /
+allow: /
 
 User-agent: CCBot
-Disallow: /
+allow: /
 
 User-agent: FacebookBot
-Disallow: /
+allow: /
 
 User-agent: Bytespider
-Disallow: /
+allow: /
 
 User-agent: PerplexityBot
-Disallow: /
+allow: /
 
 User-agent: YouBot
-Disallow: /
+allow: /
 
 User-agent: cohere-ai
-Disallow: /
+allow: /
 
 User-agent: Diffbot
-Disallow: /
+allow: /
 
 User-agent: ImagesiftBot
-Disallow: /
+allow: /
 
 # Sitemap
 Sitemap: https://edusidegum.github.io/tatiana/sitemap.xml
